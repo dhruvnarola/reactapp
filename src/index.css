@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Lobster+Two&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Lobster Two', cursive;
+  /* background-color: rgb(147, 238, 235); */
+}
+
+.active_element {
+  font-weight: bold;
+  border-bottom: 1px solid rgb(57, 103, 255);
+}
+
+.brand_name {
+  color: rgb(57, 103, 255);
+  font-family: 'Cardo', serif;
+}
+
+.header-img {
+  margin-top: auto;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {top: 40px}
+  50%{top: 50px;}
+  100%{top: 40px;}
+}
+
+.body {
+  margin-top: auto;
+}
+
+.abtbody {
+  margin-top: auto;
+}
+
+.about_animated {
+    width: 300px;
+    margin-left: 50px;
+}
+
+/* .button_contact {
+  width;
+} */
