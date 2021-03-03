@@ -7,7 +7,7 @@ import Services from "./Services";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle"
 import Navbar from "./Navbar";
-import "./index.css"
+import "./index.scss"
 
 
 const App = () => {
